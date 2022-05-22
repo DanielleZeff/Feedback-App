@@ -2,7 +2,7 @@ import {useState, useContext, useEffect} from'react';
 import RatingSelect from './RatingSelect';
 import Card from './shared/Card';
 import Button from "./shared/Button";
-import FeedBackContext from '../context/FeedBackContext';
+import FeedbackContext from '../context/FeedbackContext';
 
 function FeedbackForm() {
     const [text, setText] = useState('');
@@ -10,7 +10,7 @@ function FeedbackForm() {
     const [btnDisabled, setBtnDisabled] = useState(true);
     const [message, setMessage] = useState('');
 
-const { addFeedback, feedbackEdit, updateFeedback } = useContext(FeedBackContext)
+const { addFeedback, feedbackEdit, updateFeedback } = useContext(FeedbackContext)
 
 useEffect(() => {
     if(feedbackEdit.edit === true) {

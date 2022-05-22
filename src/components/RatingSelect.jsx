@@ -1,11 +1,11 @@
-import { setSelectionRange } from '@testing-library/user-event/dist/utils';
+//import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 import {useState, useContext, useEffect} from 'react';
-import FeedBackContext from '../context/FeedBackContext';
+import FeedbackContext from '../context/FeedbackContext';
 
 function Rating({select}) {
   const [selected, setSelected] = useState(10);
 
-  const { feedbackEdit } = useContext(FeedBackContext)
+  const { feedbackEdit } = useContext(FeedbackContext)
 
   useEffect(() => {
     setSelected(feedbackEdit.item.rating)

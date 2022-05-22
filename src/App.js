@@ -1,38 +1,40 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import FeedbackList from './components/FeedbackList';
-import Header from './components/Header';
-import FeedbackStats from './components/FeedbackStats';
-import FeedbackForm from './components/FeedbackForm';
-import AboutIconLink from './components/AboutIconLink';
-import AboutPage from './pages/AboutPage';
-import { FeedBackProvider } from './context/FeedBackContext';
+//To start the app - npm run dev 
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Header from './components/Header'
+import FeedbackList from './components/FeedbackList'
+import FeedbackStats from './components/FeedbackStats'
+import FeedbackForm from './components/FeedbackForm'
+import AboutIconLink from './components/AboutIconLink'
+import AboutPage from './pages/AboutPage'
+import { FeedbackProvider } from './context/FeedbackContext'
 
 function App() {
- 
-    return (
-        <FeedBackProvider>
-        <Router>
-            <Header />
-            <div className='container'>
-                
-                <Route exact path='/'>
-            
-                
-                    <FeedbackForm />
-                    <FeedbackStats />
-                    <FeedbackList  />
-               
-            
-                </Route>
+  return (
+    <FeedbackProvider>
+      <Router>
+        <Header />
+        <div className='container'>
+          <Routes>
+            <Route
+              path='/'
+              element={
+                <>
+                  <FeedbackForm />
+                  <FeedbackStats />
+                  <FeedbackList />
+                </>
+              }
+            ></Route>
 
-                <Route path='/about' element={<AboutPage/>}/>
-               
-                <AboutIconLink />
-            </div>
-        </Router>
-        </FeedBackProvider>
-    )
-    }
+            <Route path='/about' element={<AboutPage />} />
+          </Routes>
 
-    
-export default App;
+          <AboutIconLink />
+        </div>
+      </Router>
+    </FeedbackProvider>
+  )
+}
+
+export default App
