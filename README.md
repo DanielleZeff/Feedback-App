@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <p align="center>
-          <img width="460 height="300" src="src/assets/to_readme/feedback.png" />
+          <img width="460" src="src/assets/to_readme/feedback.png">
  </p>
  
 ## Available Scripts
