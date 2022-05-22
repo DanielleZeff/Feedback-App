@@ -2,8 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Screenshot](feedback)
 
+<p align="center">
+  <img src="feedback" width="350" title="hover text">
+  
+</p>
 
 ## Available Scripts
 
