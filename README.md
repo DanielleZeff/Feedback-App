@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 <p align="center">
-  <img src="feedback" width="350" title="hover text">
+  <img src="feedback.png" width="350" title="hover text">
   
 </p>
 
