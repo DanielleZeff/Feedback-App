@@ -2,10 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center>
-          <img width="460" src="src/assets/to_readme/feedback.png">
- </p>
- 
+
+![](assets/feedback.png)
 ## Available Scripts
 
 In the project directory, you can run:
