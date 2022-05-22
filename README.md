@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-<img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg](https://github.com/DanielleZeff/Feedback-App/blob/main/src/assets/feedback.png?raw=true)" width="460" height="40" />
+<img src="(https://github.com/DanielleZeff/Feedback-App/blob/main/src/assets/feedback.png?raw=true)" width="460" height="40" />
 
 ## Available Scripts
 
